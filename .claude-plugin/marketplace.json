@@ -1,0 +1,12 @@
+{
+  "name": "nasrallah-mods",
+  "owner": { "name": "Nasrallah Adel" },
+  "metadata": { "description": "Claude Code mods by Nasrallah Adel." },
+  "plugins": [
+    {
+      "name": "task-pilot",
+      "source": "./",
+      "description": "Three buttons above the prompt: task status, next steps, and a plan for the next steps."
+    }
+  ]
+}

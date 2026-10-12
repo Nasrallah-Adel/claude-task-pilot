@@ -1,0 +1,27 @@
+{
+  "name": "task-pilot",
+  "version": "0.1.0",
+  "description": "Three buttons above the prompt: Status asks where the task stands, Next steps asks what is left, Plan next checks those steps and writes a plan for them.",
+  "author": { "name": "Nasrallah Adel" },
+  "license": "MIT",
+  "userConfig": {
+    "statusPrompt": {
+      "type": "string",
+      "title": "Status button prompt",
+      "default": "",
+      "description": "Text the Status button sends; empty uses the built-in prompt"
+    },
+    "nextPrompt": {
+      "type": "string",
+      "title": "Next steps button prompt",
+      "default": "",
+      "description": "Text the Next steps button sends; empty uses the built-in prompt"
+    },
+    "planPrompt": {
+      "type": "string",
+      "title": "Plan next button prompt",
+      "default": "",
+      "description": "Text the Plan next button sends; empty uses the built-in prompt"
+    }
+  }
+}
